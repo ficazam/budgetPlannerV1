@@ -1,13 +1,13 @@
-import ExpensesIcon from "../Icons/ExpensesIcon";
-import HomeIcon from "../Icons/HomeIcon";
-import PlusIcon from "../Icons/PlusIcon";
-import SavingsIcon from "../Icons/SavingsIcon";
-import UserIcon from "../Icons/UserIcon";
+import {
+	ExpensesIcon,
+	HomeIcon,
+	PlusIcon,
+	SavingsIcon,
+	UserIcon,
+} from "../Icons/Icons";
 
 const sizeSmall: string = "h-10 w-10";
 const paddingSmall: string = "p-2";
-export const iconClassName: string =
-	"text-color-alt-three items-center justify-center h-full w-full";
 
 export const navItems = [
 	{
